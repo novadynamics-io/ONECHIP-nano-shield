@@ -2,9 +2,9 @@
 #define AIN1 7
 #define BIN1 8
 
-#define PWM2 9
+#define BIN2 9
 #define AIN2 10
-#define BIN2 11
+#define PWM2 11
 
 void setup(){
   pinMode(PWM1,OUTPUT);
