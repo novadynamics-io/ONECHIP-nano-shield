@@ -1,0 +1,35 @@
+#define TRIG_PIN 15   // A0
+#define ECHO_PIN 14   // A1
+
+long duration;
+int distance;
+
+void setup() {
+  pinMode(TRIG_PIN, OUTPUT);
+  pinMode(ECHO_PIN, INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  distance = getDistance();
+  Serial.print("Distance: ");
+  Serial.print(distance);
+  Serial.println(" cm");
+  delay(500);
+}
+
+// ---------- Ultrasonic Function ----------
+int getDistance() {
+  digitalWrite(TRIG_PIN, LOW);
+  delayMicroseconds(2);
+
+  digitalWrite(TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN, LOW);
+
+  duration = pulseIn(ECHO_PIN, HIGH, 25000); // 25ms timeout
+  int dist = duration * 0.034 / 2;
+
+  if (dist == 0) return 200; // no echo case
+  return dist;
+}
