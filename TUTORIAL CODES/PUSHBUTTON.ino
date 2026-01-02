@@ -2,8 +2,8 @@
 #define PB2 2
 
 void setup() {
-pinMode(PB1,PULLUP_INPUT);
-pinMode(PB2,PULLUP_INPUT);
+pinMode(PB1, INPUT_PULLUP);
+pinMode(PB2, INPUT_PULLUP);
 Serial.begin(9600);
 }
 
