@@ -5,7 +5,7 @@
 #define BIN2 9
 #define AIN2 10
 #define PWM2 11
-
+int S = 255;
 void setup(){
   pinMode(PWM1,OUTPUT);
   pinMode(AIN1,OUTPUT);
@@ -40,8 +40,8 @@ void forward(){
   digitalWrite(AIN2,1);
   digitalWrite(BIN1,0);
   digitalWrite(BIN2,0);
-  analogWrite(PWM1,255);
-  analogWrite(PWM2,255);
+  analogWrite(PWM1,S);
+  analogWrite(PWM2,S);
   
 }
 void backward(){
@@ -49,7 +49,7 @@ void backward(){
   digitalWrite(AIN2,0);
   digitalWrite(BIN1,1);
   digitalWrite(BIN2,1);
-  analogWrite(PWM1,255);
-  analogWrite(PWM2,255);
+  analogWrite(PWM1,S);
+  analogWrite(PWM2,S);
 
 }
