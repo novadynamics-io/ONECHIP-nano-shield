@@ -8,7 +8,7 @@ Motor driver · sensors · buttons · LEDs · Bluetooth · IR — no breadboard,
 
 [![Arduino](https://img.shields.io/badge/Arduino-Nano-00979D?logo=arduino&logoColor=white)](https://www.arduino.cc/)
 [![Maintained by](https://img.shields.io/badge/maintained%20by-Nova%20Dynamics-orange)](https://github.com/novadynamics-io)
-
+[![Instagram](https://img.shields.io/badge/Instagram-nova__dynamics__-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/nova_dynamics_)
 <img src="https://github.com/user-attachments/assets/b23dc912-8cc8-4843-ae1c-f232d1324061" width="500">
 </div>
 
