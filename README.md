@@ -1,6 +1,6 @@
 <div align="center">
 
-# OneChip Nano Shield
+# ONECHIP Nano Shield
 
 **A single-board expansion shield that turns an Arduino Nano into a ready-to-go robotics controller.**
 
