@@ -205,7 +205,7 @@ Speed values are **0–100 (%)**, not 0–255.
 
 ## Documentation
 
-Full board layout, dimensions, and assembly instructions: [`ONECHIP NANO SHIELD MANUAL.pdf`](<ONECHIP NANO SHIELD MANUAL.pdf>)
+Full board layout, dimensions, and assembly instructions: [`ONECHIP NANO SHIELD MANUAL.pdf`](<ONECHIP  NANO SHIELD MANUAL.pdf>)
 
 ---
 
