@@ -11,6 +11,10 @@ Motor driver · sensors · buttons · LEDs · Bluetooth · IR — no breadboard,
 
 </div>
 
+
+
+![WhatsApp Image 2026-01-30 at 9 29 56 PM](https://github.com/user-attachments/assets/b23dc912-8cc8-4843-ae1c-f232d1324061)
+
 ---
 
 ## Table of Contents
@@ -217,6 +221,4 @@ MIT — see [`LICENSE`](LICENSE) for details.
 <div align="center">
 Built by <a href="https://github.com/novadynamics-io">Nova Dynamics</a>
 </div>
-
-![WhatsApp Image 2026-01-30 at 9 29 56 PM](https://github.com/user-attachments/assets/b23dc912-8cc8-4843-ae1c-f232d1324061)
 
