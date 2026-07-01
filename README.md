@@ -42,15 +42,15 @@ It ships with the **Onechip Nano Shield Arduino library**, which wraps all of th
 
 ## Features
 
-- 🔋 **Dual motor driver** (TB6612FNG) — drive two DC gear motors with independent speed and direction
-- 🎮 **Simple motion API** — `FORWARD`, `BACKWARD`, `LEFT`, `RIGHT`, `SLOWLEFT`, `SLOWRIGHT`, `STOP`, and a raw `TURN(leftSpeed, rightSpeed)` for full differential control
-- 📶 **Onboard Bluetooth header** — plug in an HC-05 for wireless robot control over hardware serial
-- 📏 **Ultrasonic distance sensing** — one line to get distance in cm
-- 📡 **IR remote receiver support** — built on the IRremote library, works with any standard IR remote
-- 🔘 **2 onboard buttons + 2 onboard LEDs** — ready for status indicators or simple UI, no extra wiring
-- 🦾 **6 free servo-capable pins (A0–A5)** — enough for a gripper, pan-tilt, or multi-joint arm
-- 🧮 **Built-in PID controller class** — for line-following, wall-following, or distance-hold behaviors
-- 🧩 **Speed is 0–100, not 0–255** — motion functions use intuitive percentage speed values
+-  **Dual motor driver** (TB6612FNG) — drive two DC gear motors with independent speed and direction
+-  **Simple motion API** — `FORWARD`, `BACKWARD`, `LEFT`, `RIGHT`, `SLOWLEFT`, `SLOWRIGHT`, `STOP`, and a raw `TURN(leftSpeed, rightSpeed)` for full differential control
+-  **Onboard Bluetooth header** — plug in an HC-05 for wireless robot control over hardware serial
+-  **Ultrasonic distance sensing** — one line to get distance in cm
+-  **IR remote receiver support** — built on the IRremote library, works with any standard IR remote
+-  **2 onboard buttons + 2 onboard LEDs** — ready for status indicators or simple UI, no extra wiring
+-  **6 free servo-capable pins (A0–A5)** — enough for a gripper, pan-tilt, or multi-joint arm
+-  **Built-in PID controller class** — for line-following, wall-following, or distance-hold behaviors
+-  **Speed is 0–100, not 0–255** — motion functions use intuitive percentage speed values
 
 ## What's in the Box
 
