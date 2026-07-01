@@ -188,13 +188,13 @@ Speed values are **0–100 (%)**, not 0–255.
 
 | Sketch | Demonstrates |
 |---|---|
-| [`LED_Blink`](examples/Basic/LED_Blink) | Onboard LED control |
-| [`Button_Read`](examples/Basic/Button_Read) | Reading onboard buttons over Serial |
-| [`Motor_Demo`](examples/Basic/Motor_Demo) | Every motion function — forward, turns, spins, raw `TURN()` |
-| [`Servo_Sweep`](examples/Basic/Servo_Sweep) | Driving up to 6 servos on A0–A5 |
-| [`Ultrasonic_Read`](examples/Basic/Ultrasonic_Read) | Distance sensing + LED proximity indicator |
-| [`IR_Remote_Control`](examples/Basic/IR_Remote_Control) | Controlling the robot with any IR remote |
-| [`Bluetooth_Control`](examples/Basic/Bluetooth_Control) | Wireless control via HC-05 |
+| LED_Blink | Onboard LED control |
+| Button_Read | Reading onboard buttons over Serial |
+| Motor_Demo | Every motion function — forward, turns, spins, raw `TURN()` |
+| Servo_Sweep | Driving up to 6 servos on A0–A5 |
+| Ultrasonic_Read | Distance sensing + LED proximity indicator |
+| IR_Remote_Control | Controlling the robot with any IR remote |
+| Bluetooth_Control | Wireless control via HC-05 |
 
 ## Important Notes
 
@@ -206,14 +206,6 @@ Speed values are **0–100 (%)**, not 0–255.
 ## Documentation
 
 Full board layout, dimensions, and assembly instructions: [`ONECHIP NANO SHIELD MANUAL.pdf`](<ONECHIP NANO SHIELD MANUAL.pdf>)
-
-## Contributing
-
-Issues and pull requests are welcome — whether it's a bug fix, a new example sketch, or an addition to the library. Please open an issue first for larger changes so we can discuss the approach.
-
-## License
-
-MIT — see [`LICENSE`](LICENSE) for details.
 
 ---
 
