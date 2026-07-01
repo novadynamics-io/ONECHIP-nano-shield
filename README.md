@@ -7,7 +7,6 @@
 Motor driver · sensors · buttons · LEDs · Bluetooth · IR — no breadboard, no jumper wires.
 
 [![Arduino](https://img.shields.io/badge/Arduino-Nano-00979D?logo=arduino&logoColor=white)](https://www.arduino.cc/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Maintained by](https://img.shields.io/badge/maintained%20by-Nova%20Dynamics-orange)](https://github.com/novadynamics-io)
 
 </div>
@@ -44,7 +43,7 @@ It ships with the **Onechip Nano Shield Arduino library**, which wraps all of th
 - 🎮 **Simple motion API** — `FORWARD`, `BACKWARD`, `LEFT`, `RIGHT`, `SLOWLEFT`, `SLOWRIGHT`, `STOP`, and a raw `TURN(leftSpeed, rightSpeed)` for full differential control
 - 📶 **Onboard Bluetooth header** — plug in an HC-05 for wireless robot control over hardware serial
 - 📏 **Ultrasonic distance sensing** — one line to get distance in cm
-- 📡 **IR remote receiver support** — built on the [IRremote](https://github.com/Armin-Arduino/IRremote) library, works with any standard IR remote
+- 📡 **IR remote receiver support** — built on the IRremote library, works with any standard IR remote
 - 🔘 **2 onboard buttons + 2 onboard LEDs** — ready for status indicators or simple UI, no extra wiring
 - 🦾 **6 free servo-capable pins (A0–A5)** — enough for a gripper, pan-tilt, or multi-joint arm
 - 🧮 **Built-in PID controller class** — for line-following, wall-following, or distance-hold behaviors
@@ -219,10 +218,5 @@ MIT — see [`LICENSE`](LICENSE) for details.
 Built by <a href="https://github.com/novadynamics-io">Nova Dynamics</a>
 </div>
 
-
-# ONECHIP-nano-shield
-The OneChip Nano Shield is a compact, beginner-friendly expansion board designed to make prototyping with the Arduino Nano faster and more reliable. It brings essential electronic components onto a single PCB, eliminating jumper-wire clutter and breadboard limitations, and makes building robots easier and more structured for students and hobbyists.
-It support DC motors, Servos, Digital and Analog sensor like IR and Ultrasonic sensor and Bluetooth control just in your palm.
 ![WhatsApp Image 2026-01-30 at 9 29 56 PM](https://github.com/user-attachments/assets/b23dc912-8cc8-4843-ae1c-f232d1324061)
 
-![ONECHIP](https://github.com/user-attachments/assets/cb694f2c-8e1f-4317-8c80-f72645e04309)
